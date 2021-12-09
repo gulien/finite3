@@ -1,5 +1,5 @@
 {
-  "name": "alpaxo/finite3",
+  "name": "gulien/finite3",
   "description": "A simple PHP7.2+ Finite State Machine",
   "keywords": [
     "statemachine",
@@ -24,10 +24,10 @@
     }
   ],
   "require": {
-    "php": "^7.2.5",
-    "symfony/options-resolver": "^5.0",
-    "symfony/event-dispatcher": "^4.4|^5.0",
-    "symfony/property-access": "^5.0"
+    "php": "^7.2.5|^7.4",
+    "symfony/options-resolver": "^3.0|^5.0",
+    "symfony/event-dispatcher": "^3.0|^4.4|^5.0",
+    "symfony/property-access": "^3.0|5.0"
   },
   "require-dev": {
     "pimple/pimple": "^3.3",
@@ -49,9 +49,6 @@
   },
   "config": {
     "bin-dir": "bin",
-    "platform": {
-      "php": "7.2.5"
-    }
   },
   "extra": {
     "branch-alias": {
